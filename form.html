@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</header>  
+<nav> 
+    <a class="logo"><img src="img/BioPaletten.png" alt="Overskriften BioPaletten"></a> 
+    <a class="billede"></a><img src="img/townsend-walton-Is9SAo8d-t0-unsplash.jpg" alt="Blomstereng"></a>
+</nav>
+
+<main class="Nyhedsbrev">
+    <a href="forside.html" class="formforside"><button>Forside</button></a>
+<br>
+<br>
+<h1>Kontakt os</h1>
+<br>
+    <h4>Herunder kan du få info og guides via kontaktformularen</h4>
+    <br>
+    <form>
+        <label for="navn">Navn</label>
+        <input id="navn" type="text">
+
+
+        <label for="mail"><e-mail>E-mail</label>
+        <input id="mail" type="email"required>
+
+        <label for="telefon">Telefonnummer</label>
+        <input id="telefon" type="tel">
+
+        <label for="info">Vælg det info du ønsker</label>
+        <select id="info" name="select">
+            <option value="0" selected="true" disabled>Vælg det info du ønsker</option>
+            <option value="1">Info om biodiversitet</option>
+            <option value="2">Guide til hvordan du kan hjælpe bierne</option>
+            <option value="3">Guide til hvordan du får flere sommerfugle i din have eller på din altan</option>
+           </select>
+        
+        <label for="besked">Besked til BioPaletten</label>
+        <textarea id="besked" rows="8" cols="20"></textarea>
+        <input type="submit" name="submit" value="Send besked">
+    </form>
+
+</main>  
+
+    
+</body>
+</html>
